@@ -180,6 +180,12 @@ form {
   text-align:center;
 }
 
+@media screen and (max-width: 780px) {
+   .container, .container1 , .container3 { 
+    background-attachment: scroll !important;
+  }
+}
+
 @media screen and (max-width: 900px) {
    .flexContainer {
     flex-direction:column;
@@ -212,4 +218,5 @@ form {
     height: 300px; 
   }
 }
+
 
