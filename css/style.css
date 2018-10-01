@@ -1,3 +1,6 @@
+/* ------------------------------------------------------------------------------
+global
+-------------------------------------------------------------------------------*/
 body {
   margin:0;
 }
@@ -68,6 +71,25 @@ img {
   text-align:center;
 }
 
+.flexContainer {
+  margin:5% 10% 5% 10%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.container3 {
+  position:relative;
+   background-image:url("https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   height: 600px; 
+   background-attachment: fixed;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 /* ------------------------------------------------------------------------------
 	Cards
 -------------------------------------------------------------------------------*/
@@ -87,20 +109,6 @@ img {
 
 .cardBody{
   padding:3%;
-}
-
-.flexContainer {
-  margin:5% 10% 5% 10%;
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  justify-content:space-around;
-  align-items:center;
-}
-
-#services {
-  max-height:50%;  
-  padding-top:5%;
 }
 
 .oneCard{
@@ -140,10 +148,16 @@ textarea{
   width:70%;
 }
 
+#services {
+  max-height:50%;  
+  padding-top:5%;
+}
+
+
 /* ------------------------------------------------------------------------------
 	buttons
 -------------------------------------------------------------------------------*/
-button{
+button {
   padding:1%;
   background-color:transparent;
   width:10vw;
@@ -166,6 +180,10 @@ button:hover {
    border-radius: 3px;
 }
 
+/* ------------------------------------------------------------------------------
+	forms
+-------------------------------------------------------------------------------*/
+
 .contact {
   width:40%;
   margin:auto;
@@ -174,19 +192,6 @@ button:hover {
   left:30%;
 }
 
-.container3 {
-  position:relative;
-   background-image:url("https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-   height: 600px; 
-   background-attachment: fixed;
-   background-position: center top;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-/* ------------------------------------------------------------------------------
-	forms
--------------------------------------------------------------------------------*/
 input {
   background-color:white;
   opacity:.5;
